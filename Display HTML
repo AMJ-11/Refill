@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maillard Coffee Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Maillard Coffee Store / محمصة ريفل كب </h1>
+    <nav>
+      <ul>
+        <li><a href="#coffee">Coffee Beans / حبوب القهوة</a></li>
+        <li><a href="#tea">Tea / الشاي</a></li>
+        <li><a href="#hibiscus">Hibiscus / الكركديه</a></li>
+        <li><a href="#tools">Barista Tools / أدوات الباريستا</a></li>
+        <li><a href="#books">Training Books / كتب تدريب</a></li>
+        <li><a href="#courses">Courses / الدورات التدريبية</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="coffee">
+      <h2>Coffee Beans / حبوب القهوة</h2>
+      <div class="product">
+        <img src="images/coffee.jpg" alt="Coffee Beans" />
+        <h3>Yemeni Coffee 250g / قهوة يمنية ٢٥٠غ</h3>
+        <p>Price: 45 SAR</p>
+        <div class="payment-buttons">
+          <button onclick="window.open('https://paypal.com/your-link')">PayPal</button>
+          <button onclick="window.open('https://wa.me/966XXXXXXXXX')">STC Pay</button>
+          <button onclick="window.open('https://pay.paytabs.com/coffee-checkout')">Card / Mada / Apple Pay</button>
+          <button onclick="window.open('https://tabby.ai/your-checkout')">Tabby</button>
+          <button onclick="window.open('https://tamara.co/your-checkout')">Tamara</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Repeat for each section: Tea, Hibiscus, Tools, Books, Courses -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Refill Cup Coffee. All rights reserved. | جميع الحقوق محفوظة</p>
+  </footer>
+</body>
+</html>
