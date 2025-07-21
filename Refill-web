@@ -1,3 +1,23 @@
+struct ContentView: View
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+            Text("Hello, world!")
+        }
+        .font(.largeTitle)
+        .padding()
+    }
+
+//
+struct ContentView_Previews: PreviewProvider
+
+    //
+    static var previews: some View
+
+        // 3
+        ContentView()
+
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +58,85 @@
       </div>
     </section>
 
-    <!-- Repeat for each section: Tea, Hibiscus, Tools, Books, Courses -->
+    <section id="tea">
+      <h2>Tea / الشاي</h2>
+      <div class="product">
+        <img src="images/tea.jpg" alt="Tea" />
+        <h3>Green Tea 100g / شاي أخضر ١٠٠غ</h3>
+        <p>Price: 25 SAR</p>
+        <div class="payment-buttons">
+          <button onclick="window.open('https://paypal.com/your-link')">PayPal</button>
+          <button onclick="window.open('https://wa.me/966XXXXXXXXX')">STC Pay</button>
+          <button onclick="window.open('https://pay.paytabs.com/tea-checkout')">Card / Mada / Apple Pay</button>
+          <button onclick="window.open('https://tabby.ai/your-checkout')">Tabby</button>
+          <button onclick="window.open('https://tamara.co/your-checkout')">Tamara</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="hibiscus">
+      <h2>Hibiscus / الكركديه</h2>
+      <div class="product">
+        <img src="images/hibiscus.jpg" alt="Hibiscus" />
+        <h3>Dried Hibiscus 100g / كركديه مجفف ١٠٠غ</h3>
+        <p>Price: 20 SAR</p>
+        <div class="payment-buttons">
+          <button onclick="window.open('https://paypal.com/your-link')">PayPal</button>
+          <button onclick="window.open('https://wa.me/966XXXXXXXXX')">STC Pay</button>
+          <button onclick="window.open('https://pay.paytabs.com/hibiscus-checkout')">Card / Mada / Apple Pay</button>
+          <button onclick="window.open('https://tabby.ai/your-checkout')">Tabby</button>
+          <button onclick="window.open('https://tamara.co/your-checkout')">Tamara</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <h2>Barista Tools / أدوات الباريستا</h2>
+      <div class="product">
+        <img src="images/tools.jpg" alt="Barista Tools" />
+        <h3>Milk Frother / جهاز تبخير الحليب</h3>
+        <p>Price: 85 SAR</p>
+        <div class="payment-buttons">
+          <button onclick="window.open('https://paypal.com/your-link')">PayPal</button>
+          <button onclick="window.open('https://wa.me/966XXXXXXXXX')">STC Pay</button>
+          <button onclick="window.open('https://pay.paytabs.com/tools-checkout')">Card / Mada / Apple Pay</button>
+          <button onclick="window.open('https://tabby.ai/your-checkout')">Tabby</button>
+          <button onclick="window.open('https://tamara.co/your-checkout')">Tamara</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="books">
+      <h2>Training Books / كتب تدريب</h2>
+      <div class="product">
+        <img src="images/book.jpg" alt="Training Book" />
+        <h3>Barista Basics / أساسيات الباريستا</h3>
+        <p>Price: 35 SAR</p>
+        <div class="payment-buttons">
+          <button onclick="window.open('https://paypal.com/your-link')">PayPal</button>
+          <button onclick="window.open('https://wa.me/966XXXXXXXXX')">STC Pay</button>
+          <button onclick="window.open('https://pay.paytabs.com/book-checkout')">Card / Mada / Apple Pay</button>
+          <button onclick="window.open('https://tabby.ai/your-checkout')">Tabby</button>
+          <button onclick="window.open('https://tamara.co/your-checkout')">Tamara</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h2>Courses / الدورات التدريبية</h2>
+      <div class="product">
+        <img src="images/course.jpg" alt="Training Course" />
+        <h3>Espresso Mastery Course / دورة إتقان الإسبريسو</h3>
+        <p>Price: 120 SAR</p>
+        <div class="payment-buttons">
+          <button onclick="window.open('https://paypal.com/your-link')">PayPal</button>
+          <button onclick="window.open('https://wa.me/966XXXXXXXXX')">STC Pay</button>
+          <button onclick="window.open('https://pay.paytabs.com/course-checkout')">Card / Mada / Apple Pay</button>
+          <button onclick="window.open('https://tabby.ai/your-checkout')">Tabby</button>
+          <button onclick="window.open('https://tamara.co/your-checkout')">Tamara</button>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -46,3 +144,4 @@
   </footer>
 </body>
 </html>
+
